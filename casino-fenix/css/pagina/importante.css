@@ -1,0 +1,10 @@
+.h{
+    display: none;
+}
+.disable{
+    pointer-events: none;
+    cursor: not-allowed
+}
+button:hover{
+    cursor: pointer;
+}

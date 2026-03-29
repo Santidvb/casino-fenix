@@ -1,0 +1,26 @@
+section h2{
+    font-size: clamp(20px, 20vw, 30px);
+}
+ul{
+    text-align: left;
+}
+
+.p{
+    max-width: 60%;
+}
+.p2{
+    max-width: 90%;
+}
+
+.btn{
+    filter:brightness(80%);
+}
+.btn:disabled{
+    cursor: not-allowed;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+    align-items: center;
+}

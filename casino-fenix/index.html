@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<link rel="stylesheet" href="css/login.css">
+		<link rel="icon" href="">
+		
+		<title>Entrada</title>
+		
+	</head>
+
+
+	<body>
+		<h2 id="ingreso" class="h sesion registro">Elige como ingresar</h2>
+		<h2 id="registrarseText" class="h registro">Registrarse</h2>
+		<h2 id="iniciarSesionText" class="h sesion">Iniciar Sesion</h2>
+		<button id="tipoLogIS" class="h sesion registro">Iniciar Sesion</button>
+		<button id="tipoLogR" class="h registro sesion">Registrarse</button>
+		
+		<form id="loginForm" class="h sesion registro">
+			<input type="text" id="name" placeholder="Nombre" class="h registro">
+			<input type="email" id="email" placeholder="Email">
+			<input type="password" id="password" placeholder="Contraseña">
+			
+			<div class="btn">
+				
+				<button id="volver" class="h sesion registro">Volver</button>
+				<button id="login" class="h sesion">Entrar</button>
+				<button id="register" class="h registro">Crear cuenta</button>
+				
+			</div>
+			
+		</form>
+		<script type="module" src="/js/login.js"></script>
+	</body>
+</html>
