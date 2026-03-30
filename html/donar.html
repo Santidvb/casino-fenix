@@ -31,8 +31,21 @@
         </header>
         <main>
             <section class="contenidoBase">
-                <h2>Trabajo en proceso, venga pronto</h2>
-                <img src="../assets/img/capybara.jpg" class="enProceso">
+                <div>
+					<h2>Realizar donación</h2>
+					<p>¿Cuanto dinero quieres donar? (multiplo de 5)</p>
+					<div class="conjuntoInput">
+						<label for="selectUser">Usuario:</label>
+						<select id="selectUser">
+							<option value="" disabled selected>Selecciona un usuario</option>
+						</select>
+					</div>
+					<div class="buttonAndInput">
+						<label for="montoDonacion">Monto ($):</label>
+						<input type="number" id="montoDonacion" step="5" min="5" placeholder="Solo multiplos de 5">
+					</div>
+					<button id="enviarDonacion" class="enviarDonacion">donar</button>
+                </div>
             </section>
         </main>
         <footer>
